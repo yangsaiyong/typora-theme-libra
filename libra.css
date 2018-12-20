@@ -1,0 +1,139 @@
+:root {
+    --bg-color: #FFFFFF;
+    --side-bar-bg-color: #FFFFFF;
+    --control-text-color: #070707;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+/**
+宋体	SimSun
+黑体	SimHei
+微软雅黑	Microsoft YaHei
+微软正黑体	Microsoft JhengHei
+新宋体	NSimSun
+新细明体	PMingLiU
+细明体	MingLiU
+标楷体	DFKai-SB
+仿宋	FangSong
+楷体	KaiTi
+*/
+body {
+    font-family: Arial, Microsoft YaHei;    /*字体*/
+    color: #111;                    /*字体颜色*/
+    -webkit-font-smoothing: antialiased;  /*取值 none, subpixel-antialiased, antialiased*/
+    line-height: 1.6rem;           /*行间距*/
+    letter-spacing: 0.02rem;       /*字间距*/
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#write {
+    max-width: 860px;   /*页面宽度*/
+    margin: 0 auto;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#write h1  {
+    text-align: center;  /*一级标题句中*/
+}
+
+
+/*引用*/
+blockquote {
+    border-left: 4px solid #42b983;
+    padding: 10px 0 10px 15px;
+    color: #777;
+    background-color: rgba(66, 185, 131, .1);
+}
+
+table {
+    padding: 0;
+    word-break: initial;
+}
+
+
+/*表格内容偶数行颜色*/
+table tr:nth-child(2n),
+thead {
+    background-color: #fafafa;
+}
+
+/* 表格头部边框 */
+table tr th {
+    font-weight: bold;           /*表格头部字体加粗*/
+    border: 1px solid #444444;   /*线条宽度、颜色*/
+    border-bottom: 0;
+    text-align: center;
+    margin: 0;
+    padding: 6px 13px;
+}
+
+/* 表格内容边框 */
+table tr td {
+    border: 1px solid #444444; /*线条宽度、颜色，默认：dfe2e5*/
+    text-align: center;
+    margin: 0;
+    padding: 6px 13px;
+}
+
+#write table thead th {
+    background-color: #507bc8; /*表头背景填充色*/
+    color: #FFFFFF;          /*表头字体颜色*/
+}
+
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+#write strong {
+    padding: 0 1px;
+}
+
+#write em {
+    padding: 0 5px 0 2px;
+}
+
+/*``引用配置*/
+#write code, tt {
+    margin: 0 2px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    font-family: Arial;
+    font-size: 1.5;
+    color: #e96900;
+    background-color: #f8f8f8;
+}
+
+
+/*代码块配置*/
+#write .md-fences {
+    border: 1px solid #000;     /*代码边界框颜色*/
+    -webkit-font-smoothing: initial;
+    margin:  0.8rem 0;     /*与上文文字区域的间距*/
+    padding: 0.3rem 0;      /*代码块内部头尾padding距离*/
+    line-height: 1.5rem;                 /*代码行间距*/
+    background-color: #FFFFFF;           /*背景色*/
+    border-radius: 0px;                  /*边框弧度*/
+    font-family: Consolas, Courier New;  /*代码字体*/
+    font-size: 0.9rem;                   /*字体大小*/
+    word-wrap: normal;
+}
+
