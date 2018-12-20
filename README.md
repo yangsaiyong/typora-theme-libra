@@ -1,4 +1,4 @@
-## Libra Theam for Typora
+# Libra Theam for Typora
 
 Libra is a theme for the excellent [Typora markdown text editor](https://typora.io/).
 
