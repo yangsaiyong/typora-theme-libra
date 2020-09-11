@@ -49,6 +49,22 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;  /*一级标题句中*/
 }
 
+#write h2  {
+     font-size: 1.4rem;  /*二级标题句中*/
+}
+
+#write h3  {
+     font-size: 1.25rem;  /*三级标题句中*/
+}
+
+#write h4  {
+     font-size: 1.1rem;  /*四级标题句中*/
+}
+
+#write h5  {
+     font-size: 1.0rem;  /*五级标题句中*/
+}
+
 
 /*引用*/
 blockquote {
