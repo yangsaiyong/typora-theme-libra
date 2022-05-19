@@ -8,4 +8,4 @@ The theme is tested on both MacOS and Windows.
 
 ### How to install
 
-See Typora support on [how to install themes](http://support.typora.io/About-Themes/)
+See Typora support on [how to install themes](https://theme.typoraio.cn/doc/Install-Theme/)
